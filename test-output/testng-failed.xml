@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ScoreMobile App Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Score Mobile Tests(failed)">
+    <parameter name="LeagueTitle" value="NCAA Football"/>
+    <parameter name="StandingHeader" value="AAC"/>
+    <parameter name="LeagueSelectionPageTitle" value="Leagues"/>
+    <classes>
+      <class name="com.qa.testcases.LeagueSelectionPageTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="verifyLeague" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LeagueSelectionPageTests -->
+    </classes>
+  </test> <!-- Score Mobile Tests(failed) -->
+</suite> <!-- Failed suite [ScoreMobile App Tests] -->

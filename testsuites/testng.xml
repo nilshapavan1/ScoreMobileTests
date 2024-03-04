@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ScoreMobile App Tests">
+    <test thread-count="0" name="Score Mobile Tests">
+        <parameter name="LeagueSelectionPageTitle" value="Leagues"></parameter>
+        <parameter name="LeagueTitle" value="NCAA Football"></parameter>
+        <parameter name="StandingHeader" value="AAC"></parameter>
+        <classes>
+            <class name="com.qa.testcases.LeagueSelectionPageTests" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
